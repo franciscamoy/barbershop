@@ -1,0 +1,26 @@
+
+.border-top {
+    color: $lightgray;
+}
+
+.rounded-circle {
+    width: 240px 
+}
+
+
+.mi__section2 {
+    @include mi__centrar;
+    height: 300px;
+    margin-top: 20px;
+    border-top: solid 1px $lightgray;
+   
+}
+
+.mi__paginacion {
+
+    @include mi__centrar;
+    height: 134px;
+    background-color: $platinum;
+  
+}
+

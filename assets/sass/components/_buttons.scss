@@ -1,0 +1,69 @@
+
+html {
+    scroll-behavior: smooth;
+  }
+
+
+.mi_boton1 {
+    font-family: $font-roboto;
+    font-weight: 300;
+    font-size: $medium;
+    width: 115px;
+    height: 51px;
+    color: $raisinblack;
+    border-radius: 30px; 
+
+    &:hover {
+        background-color: $lightgray;
+        border: 1px solid $lightgray;
+        color:$white
+    }
+
+    &:focus {
+        background-color: $nickel !important;
+        border: 1px solid $lightgray !important;
+        color: $white !important;
+    }
+}
+
+.mi_boton2 {
+    margin-left: 10px;
+    font-family: $font-roboto;
+    font-weight: 300;
+    font-size: $medium;
+    width: 182px;
+    height: 51px;
+    color: $raisinblack;
+    border-radius: 30px;
+
+    &:hover {
+        background-color: $lightgray;
+        border: 1px solid $lightgray;
+        color:$white
+    }
+
+    &:focus {
+        background-color: $nickel !important;
+        border: 1px solid $lightgray !important;
+        color: $white !important;
+    }
+}
+
+.mi__paginacion .btn {
+    border-radius: 30px;
+    background-color: $white;
+    border: 1px solid $lightgray;
+    color: $raisinblack;
+
+    &:hover {
+        background-color: $raisinblack;
+        border: 1px solid $lightgray;
+        color:$white
+    }
+
+    &:focus {
+        background-color: $nickel !important;
+        border: 1px solid $lightgray !important;
+        color: $white !important;
+    }
+}
